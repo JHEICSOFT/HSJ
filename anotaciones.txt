@@ -1,0 +1,42 @@
+
+borrar carpeta boostrap de dashboard ok
+borrar estilo.css de dashboard-ok
+borrar carpeta fuentes de dashboard-ok
+:::::inferior
+borrar carpeta jquery de dashboard-ok
+borrar codigo.js de dashboard-pendiente
+borrar carpeta popper de dashboard-ok
+borrar carpeta plugins de dashboard-ok
+------09/02/24--
+queda pendiente hacer el registro de paciente con el usuario que a iniciado sesión
+
+herramientas que se utilizaron para hacer esta pagina web
+
+---> 15/02/24
+titulo: ¿Por qué Visual Studio Code me da el error "No se puede validar porque no hay ningún ejecutable PHP establecido"?
+link: https://es.stackoverflow.com/questions/130842/por-qué-visual-studio-code-me-da-el-error-no-se-puede-validar-porque-no-hay-ni
+solucion:
+"php.validate.executablePath": "tu/ruta/a/php.exe", // ej: C:/xampp/php/php.exe
+
+--->
+añadir estos archivos segun la version de php instalado "para poder concectar 
+php con sql server"
+en el alchico php.ini bucar "pdo"
+agregar:
+extension=php_pdo_sqlsrv_82_ts_x64.dll
+extension=php_pdo_sqlsrv_82_nts_x64.dll
+extension=php_sqlsrv_82_ts_x64.dll
+extension=php_sqlsrv_82_nts_x64.dll
+
+---17/02/24
+codigo funciona correctamen 
+-buscar pacientre en sql server
+-perfil segun usuario inicia seccion
+-mensaje de errores
+
+//22/02/24
+hasta la fecha funciona
+- login con sql server y encriptado
+- muestra los datos del usuario logueado de la bd sql server DataHis
+- muestra los registros de la tabla usuarios
+- backup
